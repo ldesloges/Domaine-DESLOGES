@@ -13,6 +13,7 @@
 <a href= "/src/Actus" class="bouton4"> Actus </a>
 <a href= "/src/francais" class="bouton5"> 🇫🇷 </a>
 <a href= "/src/anglais" class="bouton6"> 🇬🇧 </a>
+<div class="bandeau2"> </div>
 
 
 
@@ -93,6 +94,20 @@
         font-size: 21px;
         text-decoration: NONE;
 
+    }
+
+    .bandeau2 {
+        position: absolute;
+        background-color: #2F4F4F;
+        color: #FFEFD5 ;
+        text-align: left ;
+        top: 485px ;
+        left: 0px ;
+        right: 0px;
+        height: 3000px;
+        font-size : 27px ;
+        font-family: 'Courier New', Courier, monospace;
+        z-index: 1;
     }
 
 
