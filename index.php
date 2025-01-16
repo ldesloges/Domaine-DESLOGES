@@ -26,13 +26,23 @@
             <a href="/src/anglais" class="button"> 🇬🇧 </a>
         </div>
     </div>
-    <div class="container">
-        <div>
-            <!-- <img src="https://geograppe.fr/wp-content/uploads/vignoble-vallee-de-la-loire.jpg" alt="Photo en ligne" class="paysage"> -->
-        </div>
 
-    </div>
+
+
+
+
+<script>
+
+    $('.header').on('click','.title', function() {
+        window.location.href="/";
+    });
+
+
+
+</script>
+
 
 </body>
+
 
 </html>

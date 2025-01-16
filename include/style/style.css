@@ -8,6 +8,7 @@
   padding: 0px;
   box-sizing: border-box;
   text-decoration: none !important;
+  font-size: 10px;
 }
 
 body {
@@ -18,55 +19,156 @@ body {
   height: 100vh;
   background-color: #ffffff;
 }
+
 .header {
   background-color: #2f4f4f;
   position: fixed;
   top: 0px;
   width: 100vw;
-  height: 8vh;
+  height: 8vh; 
   margin: 0px;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  align-items: center;
+  display: grid;
+  grid-template-columns: 0.1fr 1fr 4fr ;
+  grid-template-rows: 1fr 1fr;
+  overflow: visible ;
+  border-bottom: 0.2em solid #ffefd5;
+
 }
+
+
+.title:hover{cursor: pointer;}
 .title {
+  grid-row: 1;
+  grid-column: 2;
   display: flex;
   flex-direction: column;
   justify-content: start;
   align-items: center;
   font-family: scriptina;
-  font-size: 39px;
+  font-size: 35px;
   color: #ffefd5;
-  background-color: blue;
+  background-color: transparent;
+  overflow: visible;
+  text-wrap: nowrap;
+  margin-top: -25px;
 
-  
+
+
 }
-.links{
-    width:45vw;
-    height:100%;
-    background-color: transparent;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    align-items: center;
-    
+
+.links {
+  background-color:transparent;
+  grid-row: 1;
+  grid-column: 4;
+  width: 45vw;
+  height: 8vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly ;
+  align-items: center;
+
+
 }
 
 .button {
   color: #ffefd5;
-  padding: 10px;
-  font-size: 19px;
+  height: 100%;
+  font-size: 2em;
   font-family: "Courier New", Courier, monospace;
-  margin:0px 10px;
+  margin: 0px 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+
 }
 
-.container{
-    margin-top:8vh;
-    height:20%;
-    width:100%;
-    background-color: red;
+.container { 
+  background: url(../ressource/paysage.jpg) no-repeat;
+  background-position: 50% 50%;
+  background-size: cover;
+  margin-top: 8vh;
+  width: 100%;
+  height: 40%;
+  display: flex; 
+  justify-content: end; 
+  align-items: center; 
+  background-color: #ffefd5;
+  overflow: hidden; 
+  border:none;
+  flex-direction: column;  
+  
 }
+
+.frise {
+  
+  background-color:#ffefd5;
+  grid-row: 1;
+  grid-column: 4;
+  width: 100vw;
+  height: 7vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly ;
+  align-items: center;
+
+
+}
+
+.lettres {
+  color:#2f4f4f;
+  height: 100%;
+  font-size: 2em;
+  font-family: "Courier New", Courier, monospace;
+  margin: 0px 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  letter-spacing: 3.5vw;
+
+}
+
+.contenue {
+  background-color: #2f4f4f;
+  width: 100%;
+  height: 50%;
+  display: flex; 
+  justify-content: end; 
+  align-items: center; 
+  overflow: hidden; 
+  border:none;
+  flex-direction: column;
+
+}
+
+.fond-contact { 
+  background: url(../ressource/vue.jpg) no-repeat;
+  background-position: 0% 70%;
+  background-size: cover;
+  margin-top: 8vh;
+  width: 100%;
+  height: 40%;
+  display: flex; 
+  justify-content: end; 
+  align-items: center; 
+  background-color: #ffefd5;
+  overflow: hidden; 
+  border:none;
+  flex-direction: column;  
+  
+}
+
+
+
+
+
+
+  
+
+
+
 
 
 
