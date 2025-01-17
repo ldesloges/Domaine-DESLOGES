@@ -26,13 +26,28 @@
             <a href="/src/anglais" class="button"> 🇬🇧 </a>
         </div>
     </div>
-    <div class="container"></div> 
+    <div class="fond-nos-vins"></div> 
     <div class="frise">
         <div class="lettres"> NOS VINS</div>
     </div>
     <div class="contenue">
-        <div class="texte1"></div>
-        <div class="texte2"></div>
+        <div class="bouteilles">
+            <div class="bouteille">
+                <div class="petillant"></div>
+
+            </div>
+            <div class="bouteille">
+
+            </div>
+            <div class="bouteille">
+
+            </div>
+            <div class="bouteille">
+
+            </div>
+
+        </div>
+
     </div>
 
 
